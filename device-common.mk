@@ -679,5 +679,9 @@ PRODUCT_PACKAGES += \
     virtual_touchpad \
     vr_hwc
 
+# Always preopt extracted APKs to prevent
+# extracting out of the APK for gms modules.
+PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
+
 # Google apps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
