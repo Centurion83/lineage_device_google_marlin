@@ -686,5 +686,9 @@ PRODUCT_PACKAGES += \
 # extracting out of the APK for gms modules.
 PRODUCT_ALWAYS_PREOPT_EXTRACTED_APK := true
 
+# Trust HAL
+PRODUCT_PACKAGES += \
+    vendor.lineage.trust@1.0-service
+
 # Google apps
 $(call inherit-product-if-exists, vendor/gapps/gapps.mk)
