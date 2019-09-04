@@ -1,0 +1,3 @@
+[submodule "lineage_device_google_marlin"]
+	path = lineage_device_google_marlin
+	url = https://github.com/Centurion83/lineage_device_google_marlin.git
